@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/ip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="localhost"
+        android:hint="ip地址"/>
+
+    <EditText
+        android:id="@+id/port"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="端口"
+        android:text="12345" />
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner">
+    </Spinner>
+    <EditText
+        android:id="@+id/client_input"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:hint="输入命令" />
+ <Button
+     android:id="@+id/client_send"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text="发送"/>
+
+</LinearLayout>
